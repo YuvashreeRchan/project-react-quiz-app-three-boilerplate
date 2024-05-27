@@ -1,0 +1,176 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+body{
+  background-color: rgb(64, 33, 135);
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+}
+
+.play-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(30, 175, 30);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+}
+
+
+.quiz-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: white;
+  padding: 50px;
+  width: 1100px;
+  height: auto;
+  border-left: 5px solid rgb(155, 130, 238);
+}
+
+#heading {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#quesNumber {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+
+#chooseOption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.options {
+  width: 45%; 
+  background-color: #4aabcb;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.NavBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+
+.nav-btns {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#prev {
+  background-color: rgb(56, 96, 170);
+}
+#next {
+  background-color: green;
+}
+#quit{
+  background-color:red;
+}
+
+.result-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.resultbox {
+  background-color: white;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-left: 5px solid rgb(155, 130, 238);
+}
+
+#resultHeading {
+  color: green;
+}
+
+.resultText {
+  margin-bottom: 10px;
+}
+#score{
+
+  font-size: 40px;
+  color: blue;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.info div {
+  display: inline-block;
+  width: 300px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.info div:first-child {
+  text-align: left;
+}
+
+.PlayBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.PlayBtns div {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: 20px;
+}
+
+#play-again{
+  color: blue;
+  border: 2px solid blue;
+}
+#back-home{
+  color: green;
+  border: 2px solid green;
+
+}
